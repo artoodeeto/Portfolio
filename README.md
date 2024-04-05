@@ -1,14 +1,6 @@
 # Developer Portfolio
 
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
-
----
-
-# Demo :movie_camera:
-
-![](./public/image/screen.png)
-
-## View live preview [here](https://abusaid.netlify.app/).
+### This portfolio is based from [said7388](https://github.com/said7388/developer-portfolio) Developer Portfolio. All thanks to him and [code with mosh website](https://codewithmosh.com/) for inspiration
 
 ---
 
@@ -20,6 +12,7 @@
 - [Getting Started](#getting-started-dart)
 - [Usage](#usage-joystick)
 - [Packages Used](#packages-used-package)
+- [Deployment](#deployment-parachute)
 
 ---
 
@@ -43,12 +36,14 @@
 - [Git](https://git-scm.com/downloads)
 - [Node](https://nodejs.org/en/download/)
 
-#### Make sure you have the latest version of both Git and Node on your computer.
+#### Make sure you have the latest version of both Git and Node on your computer
 
 ```
 node --version
 git --version
 ```
+
+*Alternative:* If you are you using [nvm](https://github.com/nvm-sh/nvm). I added a `.nvmrc` file. you can just run the command `nvm use` and it will load the node version.
 
 ## <br />
 
@@ -96,7 +91,7 @@ NEXT_PUBLIC_EMAILJS_TEMPLATE_ID =
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data)
 
 Eg:
 
@@ -117,8 +112,11 @@ export const personalData = {
   leetcode: "https://leetcode.com/said3812/",
   devUsername: "said7388",
   resume: "...",
+  skills: ['TypeScript', 'HTML']
 };
 ```
+
+*Note:* I added a `skills` attribute on `personalData` that holds an array of strings. This is separate from the skills component.
 
 `devUsername` Used for fetching blog from `dev.to`.
 
@@ -138,5 +136,13 @@ export const personalData = {
 |   react-toastify   |
 |        sass        |
 |    tailwindcss     |
+
+---
+
+# Deployment :parachute:
+
+On `said7388` portfolio his deploying it on [netlify](https://www.netlify.com/).
+
+On my end Im just using github actions. If you want to use github actions. Please follow this guide. [NextJS-GitHub-Actions](https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/)
 
 ---
