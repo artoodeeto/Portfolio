@@ -6,6 +6,7 @@ import {BsPersonWorkspace} from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import lottieFile from "/public/lottie/study.json";
+import {basePath} from "@/next.config";
 
 function Education() {
   return (
@@ -14,7 +15,7 @@ function Education() {
       className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
     >
       <Image
-        src="/portfolio/section.svg"
+        src={`${basePath}/section.svg`}
         alt="."
         width={1572}
         height={795}
@@ -53,7 +54,7 @@ function Education() {
                 >
                   <div className="p-3 relative text-white">
                     <Image
-                      src="/portfolio/blur-23.svg"
+                      src={`${basePath}/blur-23.svg`}
                       alt="."
                       width={1080}
                       height={200}

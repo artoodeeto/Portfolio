@@ -1,5 +1,6 @@
 // @flow strict
 
+import {basePath} from "@/next.config";
 import {personalData} from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,7 +14,7 @@ function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
-        src="/hero.svg"
+        src={`${basePath}}/hero.svg`}
         alt="Hero"
         width={1572}
         height={795}
@@ -83,7 +84,7 @@ function HeroSection() {
               rel="noreferrer noopener"
               role="button"
               target="_blank"
-              href={personalData.resume}
+              href={`${basePath}/${personalData.resume}`}
             >
               <span>Get Resume</span>
               <MdDownload size={16} />
