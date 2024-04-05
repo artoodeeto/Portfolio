@@ -7,7 +7,7 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
-  images: {
-    domains: ["res.cloudinary.com", "media.dev.to"],
-  },
+  // images: {
+  //   domains: ["res.cloudinary.com", "media.dev.to"],
+  // },
 };

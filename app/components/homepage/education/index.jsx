@@ -53,7 +53,7 @@ function Education() {
                 >
                   <div className="p-3 relative text-white">
                     <Image
-                      src="/blur-23.svg"
+                      src="/portfolio/blur-23.svg"
                       alt="."
                       width={1080}
                       height={200}
