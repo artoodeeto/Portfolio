@@ -14,7 +14,7 @@ function Education() {
       className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
     >
       <Image
-        src="/section.svg"
+        src="/portfolio/section.svg"
         alt="."
         width={1572}
         height={795}
