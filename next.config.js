@@ -1,8 +1,9 @@
 const path = require("path");
 
 module.exports = {
-  basePath: "/",
+  basePath: "/portfolio",
   output: "export",
+  reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
