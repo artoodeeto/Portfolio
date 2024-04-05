@@ -15,7 +15,7 @@ function Education() {
     >
       <Image
         src="/section.svg"
-        alt="Hero"
+        alt=""
         width={1572}
         height={795}
         className="absolute top-0 -z-10"
@@ -54,7 +54,7 @@ function Education() {
                   <div className="p-3 relative text-white">
                     <Image
                       src="/blur-23.svg"
-                      alt="Hero"
+                      alt=""
                       width={1080}
                       height={200}
                       className="absolute bottom-0 opacity-80"
