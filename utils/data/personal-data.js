@@ -3,7 +3,7 @@ export const personalData = {
   profile: "/aaa.jpg",
   designation: "Software Developer",
   description:
-    "Solutions-oriented and qualified Full-Stack Web Developer with 6+ years of experience in both front-end and back-end development processes. Proven record of developing and maintaining a multi-user platform, implementing automated systems, and managing databases and servers. Skilled at creating data visualization reports, integrating third-party APIs, and designing responsive web applications.",
+    "Solutions-oriented and qualified Full-Stack Web Developer with 3 years of backend and 3 years of frontend experience. Proven record of developing and maintaining a multi-user platform, implementing automated systems, and managing databases and servers. Experienced in building robust e-commerce websites, including payment gateways integration, inventory management systems, and secure user authentication mechanisms. Skilled at integrating third-party APIs and designing responsive web applications.",
   email: "raphaelg2012@gmail.com",
   phone: "+1760-513-8024",
   address: "Chino California",
