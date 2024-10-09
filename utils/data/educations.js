@@ -4,6 +4,6 @@ export const educations = [
     title: "Bachelor of Science",
     major: "Information Technology",
     duration: "",
-    institution: "Notre Dame of Dadiangas University",
+    institution: "Notre Dame University",
   },
 ];
