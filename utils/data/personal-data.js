@@ -30,5 +30,7 @@ export const personalData = {
     "Chai",
     "Jest",
     "AWS",
+    "c#",
+    ".Net",
   ],
 };
