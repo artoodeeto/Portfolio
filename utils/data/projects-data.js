@@ -6,11 +6,11 @@ import travel from "/public/image/travel.jpg";
 export const projectsData = [
   {
     id: 1,
-    name: "",
-    description: "",
-    tools: [],
-    role: "",
-    code: "",
+    name: "c# Network API",
+    description: "Learning material",
+    tools: ["c#"],
+    role: "Individual",
+    code: "https://github.com/artoodeeto/c--networking",
     demo: "",
     image: "",
   },
