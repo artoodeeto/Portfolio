@@ -3,7 +3,7 @@ export const personalData = {
   profile: "/aaa.jpg",
   designation: "Software Developer",
   description:
-    "Solutions-oriented and qualified Full-Stack Web Developer with 3 years of backend and 3 years of frontend experience. Proven record of developing and maintaining a multi-user platform, implementing automated systems, and managing databases and servers. Experienced in building robust e-commerce websites, including payment gateways integration, inventory management systems, and secure user authentication mechanisms. Skilled at integrating third-party APIs and designing responsive web applications.",
+    "Dynamic Web Developer with a Bachelor's in IT and 5+ years of experience in backend and frontend development. Skilled in HTML, CSS, JavaScript/Typescript, NextJS, NodeJS, C#, .NET, MySQL, PostgreSQL, and AWS. Proven track record with Angular, React, RESTful APIs, and relational databases. Collaborative team player focused on scalable web applications.",
   email: "raphaelg2012@gmail.com",
   phone: "+1760-513-8024",
   address: "Chino California",
